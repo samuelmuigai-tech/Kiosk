@@ -19,7 +19,7 @@ class AppsUtil {
             val allApps = packageManager.queryIntentActivities(i, 0)
             for (ri in allApps) {
                 val packageName = ri.activityInfo.packageName
-                if (packageName == "app.com.maisha.idverification") {
+                if (packageName == "com.maisha.idverification") {
                     val app = AppInfo(
                         ri.loadLabel(packageManager),
                         packageName,

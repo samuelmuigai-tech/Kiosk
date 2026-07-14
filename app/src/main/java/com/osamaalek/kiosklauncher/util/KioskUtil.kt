@@ -38,8 +38,8 @@ class KioskUtil {
 
                 val appsWhiteList = arrayOf(
                     "com.osamaalek.kiosklauncher",
-                    "app.com.maisha.idverification", // Replace with your target app's package name
-                    "com.android.settings"
+                    "com.maisha.idverification", // Replace with your target app's package name
+                    "com.android.settings",
                 )
                 devicePolicyManager.setLockTaskPackages(myDeviceAdmin, appsWhiteList)
 

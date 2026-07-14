@@ -6,4 +6,10 @@
     <string name="wifi_settings">Wifi Settings</string>
     <string name="brightness_settings">Brightness Settings</string>
     <string name="mobile_data_settings">Mobile Data Settings</string>
+    <string name="exit_kiosk_mode">Exit Kiosk Mode</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password_hint">Password</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="wrong_password">Wrong Password</string>
 </resources>
